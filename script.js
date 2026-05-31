@@ -85,7 +85,7 @@ function graficoTikTok() {
       color: "#e5e7eb",
       fontSize: "14px"
     },
-    x: {domain: ["Antes", "Durante", "Después"], label: "Período", tickColor: "#cbd5e1", labelColor: "#cbd5e1"},
+    x: {domain: ["Antes", "Durante", "Después"], label: "                                                                                                                                           Periodo", tickColor: "#cbd5e1", labelColor: "#cbd5e1"},
     y: {grid: true, label: "Publicaciones", tickColor: "#cbd5e1", labelColor: "#cbd5e1"},
     marks: [
       Plot.barY(datos.tiktok, {
